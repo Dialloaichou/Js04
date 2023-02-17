@@ -2,9 +2,9 @@ module.exports = checkEvenOdd;
 
 function checkEvenOdd(num) {
     if (num % 2 == 0) {
-      return "pair";
+      return "Pair";
     } else {
-      return "impair";
+      return "Impair";
     }
   }
 
