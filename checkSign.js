@@ -7,9 +7,9 @@ function checkSign(n){
         return 'Positif';
     }
 }
-var result = checkSign(-8);
+var result = checkSign(-2);
+console.log(result);
+ result = checkSign(0);
 console.log(result);
  result = checkSign(4);
-console.log(result);
- result = checkSign(5);
 console.log(result);
