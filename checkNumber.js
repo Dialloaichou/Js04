@@ -1,6 +1,6 @@
 module.exports = checkNumber;
 
-function checkNumber(num){
+function checkNumber(num=1){
     num <= 10;
     if (num < 5) {
         console.log('Faible');
